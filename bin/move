@@ -14,7 +14,7 @@ end
 =end
 
 puts "Where would you like to go?" 
-num = gets.to_i
+user_input = gets.to_i
 
-move(num)
+move(user_input)
 
