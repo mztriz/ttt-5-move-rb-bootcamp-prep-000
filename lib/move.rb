@@ -8,7 +8,7 @@ end
 
 def input_to_index(num)
   num = num.to_i - 1
-  num = 0 if num.equal? 0
+  num = 0 if num === 0
 end
 
 def move(board, num, player = "X")
