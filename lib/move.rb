@@ -10,7 +10,7 @@ def input_to_index(num)
   num = num - 1
 end
 
-def move(num)
+def move(board, num)
   num = input_to_index(num)
   board[num] = "X"
   display_board(board)
