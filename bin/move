@@ -12,4 +12,4 @@ while ( num <= 0 or num > 9 )
 end
 
 move(board, num)
-
+display_board(board)
