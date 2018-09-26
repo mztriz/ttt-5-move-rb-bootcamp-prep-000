@@ -11,6 +11,6 @@ end
 
 def move (num)
   if (num > 9 or num <= 0)
-    puts "Goodbye"
+    puts "Invalid move; pick a number between 1 and 9"
   end
 end
