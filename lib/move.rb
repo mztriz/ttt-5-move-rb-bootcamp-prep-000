@@ -7,8 +7,11 @@ def display_board(board)
 end
 
 def input_to_index(num)
-  num = num.to_i - 1
-  num = 0 if num === 0
+  if num === 0 
+    num = 0 
+  else 
+    num = num.to_i - 1
+  end
 end
 
 def move(board, num, player = "X")
