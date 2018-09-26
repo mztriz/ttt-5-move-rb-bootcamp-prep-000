@@ -10,4 +10,6 @@ def input_to_index
 end
 
 def move (num)
+  if (num > 9 and <= 0)
+    puts "Goodbye"
 end
