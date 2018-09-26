@@ -10,7 +10,7 @@ end
 #end
 
 def move (num)
-  if (num > 9 and num <= 0)
+  if (num > 9 or num <= 0)
     puts "Goodbye"
   end
 end
