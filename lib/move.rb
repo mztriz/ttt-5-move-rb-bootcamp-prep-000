@@ -12,5 +12,6 @@ end
 
 def move(num)
   num = input_to_index(num)
-  puts num
+  board[num] = "X"
+  display_board(board)
 end
