@@ -6,7 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?" 
 num = 0
 
-while 
+while ( num <= 9 or num > 0 )
 num = gets.to_i
 
 move(num)
