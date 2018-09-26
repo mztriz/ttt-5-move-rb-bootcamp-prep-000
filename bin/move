@@ -13,7 +13,8 @@ while ( num <= 0 or num > 9 )
 end
 =end
 
-
+puts "Where would you like to go?" 
+num = gets.to_i
 
 move(board, num)
 
