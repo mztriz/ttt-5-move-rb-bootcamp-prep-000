@@ -3,7 +3,7 @@
 require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
-num = 6
+num = 
 
 while ( num > 0 and num <= 9 )
   puts "Where would you like to go?" 
