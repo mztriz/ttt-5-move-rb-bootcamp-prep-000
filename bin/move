@@ -3,9 +3,10 @@
 require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
-
 puts "Where would you like to go?" 
+num = 0
 
+while 
 num = gets.to_i
 
 move(num)
