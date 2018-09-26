@@ -13,5 +13,4 @@ end
 def move(board, num, player = "X")
   num = input_to_index(num)
   board[num] = player
-  display_board(board)
 end
